@@ -36,7 +36,7 @@ void loop()
       digitalWrite(light2, LOW); 
       tone(buzzer, 500); 
       noTone(buzzer); 
-      }
+	}
   if (SensorValue < 600 && SensorValue >= 370) 
   	{ 
       digitalWrite(9, HIGH); 
